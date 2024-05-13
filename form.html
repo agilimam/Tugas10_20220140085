@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULIR</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Formulir calon pegawai</legend>
+                <p>Nama :<input type="text" name="nama"></p>
+                <p>Alamat : <input type="text" name="alamat"></p>
+                <p>Password : <Input type="password" name="password"></p>
+            <p>
+                Jenis Kelamin :
+                <input type="radio" name="jk" value="laki laki" checked/> Laki Laki
+                <input type="radio" name="jk" value="P=perempuan" checked/> Perempuan
+            </p>
+            <p>
+                Bahasa pemrograman yang dikuasai : <br>
+                    <input type="checkbox" name="web"> Web
+                    <input type="checkbox" name="mobile"> Mobile
+                    <input type="checkbox" name="desk"> Desktop
+                </p>
+            <p>
+                Kota asal :
+                <select>
+                    <option>Semarang</option>
+                    <option>Bandung</option>
+                </select>
+            </p>
+            <p>
+                Apa yang membuat kami harus memilih anda?:<br>
+                <textarea rows="10" cols="60" placeholder="Tulis jawaban anda disini"></textarea>
+            </p>
+            <p><input type="submit" value="submit"></p>
+        </fieldset>
+    </form>
+    <button class="back"><a href="index.html">Home</a></button>
+</body>
+</html>
